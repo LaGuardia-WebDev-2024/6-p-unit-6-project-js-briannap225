@@ -12,9 +12,33 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
   
-
+  // The sun
+  fill(255,255,0);
+  ellipse(80, 64, 100, 100);  
+  
+  
+  
+    //floor
+  fill(150,250,20)
+  rect(0, 300, 400, 100);  
+  
+  
+  
+ fill();
+ //base
+ rect(270, 200, 120, 100);
+ //window
+rect(300, 230, 20,30); 
+//window
+ rect(350, 230, 20,30); 
+ //door
+  rect(325, 270, 20,30);
+ // The sun
+  fill(255,255,0);
+  ellipse(340, 285, 8, 8);  
+  
+  
 }
 
 //🟡Extra FUN Features Ms. Hall Added
