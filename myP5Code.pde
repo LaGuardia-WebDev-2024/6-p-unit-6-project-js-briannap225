@@ -12,11 +12,51 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+  background(150,200,200);
+  
+  
+  
+  // The sun
+  fill(255,255,0);
+  ellipse(80, 64, 100, 100);  
+  
+  
+  
+    //floor
+  fill(150,250,20)
+  rect(0, 300, 400, 100);  
+  
+  
+  
+ 
+ //base
+ fill(255,0,0)
+ rect(270, 200, 120, 100);
+ 
+ 
+ //window
+ fill(173,216,230)
+rect(300, 230, 20,30); 
+
+//window
+fill(173,216,230)
+ rect(350, 230, 20,30); 
+ 
+ //door
+ fill(51,25,0)
+  rect(325, 270, 20,30);
+  
+ // The sun
+ stroke(250,0,0)
+  ellipse(340, 285, 8, 8);  
+  
+  
+  //roof
+  triangle(271,200,327,126,390,200)
 
   
-
+  
 }
-
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
 
