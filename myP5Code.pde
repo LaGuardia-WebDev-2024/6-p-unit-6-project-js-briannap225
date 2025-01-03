@@ -19,33 +19,33 @@ void draw(){
   // The sun
   fill(255,255,0);
   ellipse(80, 64, 100, 100);  
-  
+   strokeWeight(1);
   
   
     //floor
   fill(150,250,20)
   rect(0, 300, 400, 100);  
-  
+   strokeWeight(3);
   
   
  
  //base
  fill(255,0,0)
  rect(270, 200, 120, 100);
- 
+  strokeWeight(2);
  
  //window
  fill(173,216,230)
 rect(300, 230, 20,30); 
-
+ strokeWeight(3);
 //window
 fill(173,216,230)
  rect(350, 230, 20,30); 
- 
+  strokeWeight(3);
  //door
  fill(51,25,0)
   rect(325, 270, 20,30);
-  
+   strokeWeight(2);
  // The sun
  stroke(250,0,0)
   ellipse(340, 285, 8, 8);  
@@ -53,7 +53,7 @@ fill(173,216,230)
   
   //roof
   triangle(271,200,327,126,390,200)
-
+ strokeWeight(1);
   
   
 }

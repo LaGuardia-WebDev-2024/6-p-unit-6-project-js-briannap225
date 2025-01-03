@@ -34,7 +34,10 @@ html{
 }
 
 h2{
-  color: black;
+  color: red;
+    font-style: italic;
+  font-family: cursive;
+  
 }
 
 #start{
